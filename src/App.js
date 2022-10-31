@@ -23,7 +23,9 @@ class App extends React.Component {
 
   truCard = (event) => {
     if (event === 'cardTrunfo') {
-      this.setState({ cardTrunfo: !this.cardTrunfo });
+      this.setState({ cardTrunfo: !this.cardTrunfo }, () => {
+        this.setState({ hasTrunfo: true });
+      });
     }
   };
 
@@ -41,7 +43,6 @@ class App extends React.Component {
 
     this.setState((prevent) => ({
       saveLoca: [...prevent.saveLoca, total],
-
       cardName: '',
       cardDescription: '',
       cardAttr1: 0,
@@ -49,9 +50,12 @@ class App extends React.Component {
       cardAttr3: 0,
       cardImage: '',
       cardRare: '',
-      cardTrunfo: true,
+      cardTrunfo: false,
       hasTrunfo: false,
-    }));
+    }, () => {
+      this.setState({ hasTrunfo: truCard() });
+    }
+    ));
   };
 
   onInputChange = ({ target }) => {
