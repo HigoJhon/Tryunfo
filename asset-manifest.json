@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HigoJhon/tryufo/static/css/main.e6c13ad2.css",
+    "main.js": "/HigoJhon/tryufo/static/js/main.b1adbf4f.js",
+    "index.html": "/HigoJhon/tryufo/index.html",
+    "main.e6c13ad2.css.map": "/HigoJhon/tryufo/static/css/main.e6c13ad2.css.map",
+    "main.b1adbf4f.js.map": "/HigoJhon/tryufo/static/js/main.b1adbf4f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.b1adbf4f.js"
+  ]
+}
