@@ -1,13 +1,18 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# :flower_playing_cards: Tryunfo :flower_playing_cards:
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+Neste projeto desenvolvi um jogo no estilo Super Trunfo! O usuario poderar:
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+* Criar um baralho com tema livre;
+* Adcionar ou remover uma carta do baralho;
+* Visualizar todas as cartas que foram criadas;
+* Jogar com o baralho.
+
+#### Habilidades usadas:
+
+* Ler o estado de um componente e usá-lo para alterar o que exibe no browser
+* Iniciar componente, dando a ele um estado pré-definnido
+* Formulário utilizando sintaxe JSX com tags: `input`, `textarea`, `fron`, `checkbox`
+* Transmitir informações de componentes filhos para pais cia callbacks
+
+#### Caso queira ver em seu navegardor e so cliclar no link a baixo.
+#### https://github.com/HigoJhon/Tryunfo
